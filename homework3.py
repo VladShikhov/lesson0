@@ -1,6 +1,6 @@
 # организуем программу
 my_string = input()
-print(len(my_string))
+print('Длина строки: ', len(my_string))
 
 # работаем с методами строк
 print(f'Вывод строки в верхнем регистре: {my_string.upper()}')
