@@ -34,7 +34,7 @@ async def set_age(message):
 
 @dp.message_handler(text = "Информация")
 async def set_age(message):
-    await message.answer("Бот поможет тебе рассчитать вес")
+    await message.answer("Бот поможет тебе рассчитать норму калорий")
 
 
 @dp.message_handler(state = UserState.age)
